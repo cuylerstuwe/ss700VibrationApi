@@ -6,16 +6,16 @@ Userscript / Local Server combo for triggering vibration on the SteelSeries Riva
 
 Node app written in Typescript.
 
-Must be running in order for the userscript to figure out where to send messages to -- The port for SteelSeries' Engine API potentially *(and usually!)* changes on each boot.
+**Must be running** in order for the userscript to figure out where to send messages to -- The port for SteelSeries' Engine API potentially *(and usually!)* changes on each boot.
 
 The discovery server itself currently runs on ```localhost``` at port ```8484```.
 
-Prerequisites:
+**Prerequisites:**
 
 - [Recent version of Node](https://nodejs.org/en/download/) is installed.
 - Typescript compiler is installed, either globally *(via ```npm i -g typescript``` in terminal after installing Node)* or locally.
 
-To start: 
+**To start:** 
 
 1. Open a terminal wherever the ```discoveryServer``` directory exists.  
 2. Run ```tsc init``` in the terminal to transpile from Typescript to Javascript.
@@ -34,3 +34,9 @@ ss700VibrationApi.strongBuzz(); // 750-ms long vibration, best-used for notifica
 // (i.e., letting the user know that he successfully clicked a radio button rather than missing it).
 ss700VibrationApi.softBump(); 
 ```
+
+**Prerequisites:**
+
+- A GM_-compatible userscript manager *(i.e., [Tampermonkey for Chrome](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en) or [Tampermonkey for Firefox](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/))*
+
+**To install:**
