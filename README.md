@@ -1,5 +1,7 @@
 # ss700VibrationApi
 
+Userscript / Local Server combo for triggering vibration on the SteelSeries Rival 700 from userscripts *(or other Internet sources)*.
+
 ## Discovery Server
 
 Node app written in Typescript.
