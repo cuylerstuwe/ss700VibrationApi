@@ -29,7 +29,7 @@ Currently, ```ss700VibrationApi``` exposes the following methods:
 
 ```javascript
 // 750-ms long vibration, best-used for notifications, errors, or other important things.
-// Far too annoying to be used frequently for tactile feedback.
+// Far too annoying to be used frequently for simple tactile feedback.
 ss700VibrationApi.strongBuzz();
 
 // Weak, short *(60ms)* bump, best-used for frequent tactile feedback.
