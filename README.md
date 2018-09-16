@@ -31,8 +31,8 @@ Currently, ```ss700VibrationApi``` exposes the following methods:
 // 750-ms long vibration, best-used for notifications, errors, or other important things.
 ss700VibrationApi.strongBuzz();
 
-// Weak, short *(60ms)* bump, best-used for tactile feedback
-// (i.e., letting the user know that he successfully clicked a radio button rather than missing it).
+// Weak, short *(60ms)* bump, best-used for frequent tactile feedback.
+// Example case: Letting the user know that he successfully clicked a radio button rather than missing it.
 ss700VibrationApi.softBump(); 
 ```
 
