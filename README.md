@@ -37,6 +37,6 @@ ss700VibrationApi.softBump();
 
 **Prerequisites:**
 
-- A GM_-compatible userscript manager *(i.e., [Tampermonkey for Chrome](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en) or [Tampermonkey for Firefox](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/))*
+- A ```GM_```-compatible userscript manager *(i.e., [Tampermonkey for Chrome](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en) or [Tampermonkey for Firefox](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/))*
 
 **To install:**
