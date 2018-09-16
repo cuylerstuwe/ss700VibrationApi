@@ -1,6 +1,6 @@
 # ss700VibrationApi
 
-Userscript / Local Server combo for triggering vibration on the SteelSeries Rival 700 from userscripts *(or other Internet sources)*.
+Userscript / Local Server combo for triggering vibration on the SteelSeries Rival 700 from userscripts *(or other Internet sources)* on Windows *(other driver-compatible platforms can be easily supported by simply changing the OS-specific path for ```coreProps.json```)*.
 
 ## Discovery Server
 
