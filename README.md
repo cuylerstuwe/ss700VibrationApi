@@ -40,3 +40,5 @@ ss700VibrationApi.softBump();
 - A ```GM_```-compatible userscript manager *(i.e., [Tampermonkey for Chrome](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en) or [Tampermonkey for Firefox](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/))*
 
 **To install:**
+
+- Either copy/paste the code in the ```.user.js``` file to a new userscript with your userscript manager, or view the ```.user.js``` file in the browser where you'd like to install the userscript, and click the button labeled ```Raw``` *([shortcut](https://github.com/salembeats/ss700VibrationApi/raw/master/userscript/ss700VibrationApi.user.js))*.
