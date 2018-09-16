@@ -28,9 +28,10 @@ Puts an ```ss700VibrationApi``` object on the ```Window``` object, which can the
 Currently, ```ss700VibrationApi``` exposes the following methods:
 
 ```javascript
-ss700VibrationApi.strongBuzz(); // 750-ms long vibration, best-used for notifications.
+// 750-ms long vibration, best-used for notifications, errors, or other important things.
+ss700VibrationApi.strongBuzz();
 
-// 60-ms long bump, best-used for tactile feedback
+// Weak, short *(60ms)* bump, best-used for tactile feedback
 // (i.e., letting the user know that he successfully clicked a radio button rather than missing it).
 ss700VibrationApi.softBump(); 
 ```
