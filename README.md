@@ -1,1 +1,31 @@
 # ss700VibrationApi
+
+## Discovery Server
+
+Node app written in Typescript.
+
+Must be running in order for the userscript to figure out where to send messages to -- The port for SteelSeries' Engine API potentially *(and usually!)* changes on each boot.
+
+The discovery server itself currently runs on ```localhost``` at port ```8484```.
+
+Prerequisites:
+
+- [Recent version of Node](https://nodejs.org/en/download/) is installed.
+- Typescript compiler is installed, either globally *(via ```npm i -g typescript``` in terminal after installing Node)* or locally.
+
+To start: 
+
+1. Open a terminal wherever the ```discoveryServer``` directory exists.  
+2. Run ```tsc init``` in the terminal to transpile from Typescript to Javascript.
+3. Run ```node index``` in the terminal. Keep it running in the background so that the userscript can use it to find the information that it needs.
+
+## Userscript
+
+Puts an ```ss700VibrationApi``` object on the ```Window``` object, which can then be used to send vibration events to the SteelSeries Rival 700 mouse from arbitrary Javascript, including *(but not limited to)* userscripts.
+
+Currently, ```ss700VibrationApi``` exposes the following methods:
+
+```javascript
+ss700VibrationApi.strongBuzz(); // 750-ms long vibration, best-used for notifications.
+ss700VibrationApi.softBump(); // 60-ms long bump, best-used for tactile feedback *(i.e., letting the user know that he successfully clicked a radio button rather than missing it)*.
+```
