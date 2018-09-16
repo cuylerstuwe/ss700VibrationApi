@@ -41,4 +41,7 @@ ss700VibrationApi.softBump();
 
 **To install:**
 
-- Either copy/paste the code in the ```.user.js``` file to a new userscript with your userscript manager, or view the ```.user.js``` file in the browser where you'd like to install the userscript, and click the button labeled ```Raw``` *([shortcut](https://github.com/salembeats/ss700VibrationApi/raw/master/userscript/ss700VibrationApi.user.js))*.
+Either:
+- Copy/paste the code in the ```.user.js``` file to a new userscript with your userscript manager, or
+- View the ```.user.js``` file in the browser and user profile where you'd like to install the userscript, then click the button labeled ```Raw```, or
+- Using the browser and user profile where you'd like to install the userscript, click [this shortcut](https://github.com/salembeats/ss700VibrationApi/raw/master/userscript/ss700VibrationApi.user.js)*.
